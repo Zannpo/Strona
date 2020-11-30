@@ -1,0 +1,120 @@
+body
+{
+background-size:cover;
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12pt;
+background-image: url(../img/networkearth.jpg); ;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size:cover;
+}
+
+#page{
+  min-width: 400px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #555;
+
+}
+
+body header hgroup {
+    margin-bottom: 0px;
+    padding:10px;
+    background-color:#012950;
+    color: #f5f5f5;
+}
+
+#descr{
+  color:#999;
+  
+}
+.photo {
+    margin:10px 0;
+    width: 120px;
+    background:burlywood;
+    padding: 10px;
+    opacity:0.7;
+    border-radius:10px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    display: inline-table;
+    }
+    
+.photo img {
+  width:100px;    
+  }
+    
+.photo figcaption {
+    margin-top: 10 px;
+    }
+    
+.photo:hover {
+    opacity: 1;
+    transition: 0.3s all linear;
+    transform: scale(1.1);
+}
+
+
+    ol {
+      list-style-type:none;
+      padding:0;
+      margin:0;
+      font-size:18px;
+      height:32px;
+      line-height:32px;
+      text-align:center;
+      background-color: #003366;
+      
+      }
+    
+    ol li {
+      color: white;
+      float:left;
+      background-color:#003366;
+      width:150px;
+      margin-left:1px;
+      position: relative;
+      border-right: 1px solid;
+      
+    }
+    
+    ol a {
+      display:inline;
+      color: white;
+      text-decoration:none;
+      
+    }
+    
+    ol li > a:hover {
+      color:#09C;
+    }
+        
+    ol li ul {
+      display: none;
+      list-style-type:none;
+      padding:0;
+      margin:0;
+                
+    }
+    ol li:hover ul{
+      display: block;
+      position:absolute;
+    }
+    
+    ol ul li {
+      border-right: none;
+    }
+        
+    footer {
+      clear: both;
+      margin-top: 0px;
+      padding: 10px;
+      background-color: #333333;
+      color: #f5f5f5;
+      
+    }
+  

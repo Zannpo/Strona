@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    background-image: url(../img/networkearth.jpg); ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
+
+#page{
+    min-width: 400px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #555;
+    
+}
+
+p{
+  color:#999;
+  padding:5px;
+}
+body header hgroup{
+margin: 0px;
+padding:10px;
+background-color:#012950;
+color: #f5f5f5;
+}
+
+
+
+body aside{
+    float: left;
+    width: 250px;
+       
+}
+
+body main{
+    float:right;
+    width: 600px;
+    
+}
+
+ol {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  font-size:18px;
+  height:32px;
+  line-height:32px;
+  text-align:center;
+  background-color: #003366;
+  
+  }
+
+ol li {
+  color: white;
+  float:left;
+  background-color:#003366;
+  width:150px;
+  margin-left:1px;
+  position: relative;
+  border-right: 1px solid;
+  
+}
+
+ol a {
+  display:inline;
+  color: white;
+  text-decoration:none;
+  
+}
+
+ol li > a:hover {
+  color:#09C;
+}
+    
+ol li ul {
+  display: none;
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  border-right:none;
+      
+}
+ol li:hover ul{
+  display: block;
+  position:absolute;
+}
+ol ul li {
+  border-right: none;
+}
+   
+  footer {
+    clear: both;
+    margin: 0px;
+    padding: 10px;
+    background-color: #333333;
+    color: #f5f5f5;
+    
+  }
+
+  #mail{
+    padding: 2px;
+    margin-top: 3px;
+    background-image: url(../img/favicon.ico);
+    background-repeat: no-repeat;
+    padding-left:20px;
+    background-color: #555;
+    color:#999;
+    font-weight: bolder;
+   }
+  
+  .wpisy p{
+    border-top:1px solid;
+    border-left:1px solid;
+    border-right:1px solid;
+    margin:0px;
+    background-color:burlywood;
+    color:black;
+
+   }
+  .wpisy footer{
+    background-color:burlywood;
+    margin:0px;
+    color: black;
+    border-bottom:1px solid;
+    border-left:1px solid;
+    border-right:1px solid;
+    font-size:80%;
+  }
+  
+ ul li{
+    color: #999;
+  }
+
+  #wishes{
+  width:400px;
+  height:33px;
+  line-height:28px;
+  margin:0 auto;
+  border:2px solid #333;;
+  font-size:20px;
+  background-color:beige;
+  overflow:hidden;
+  position: relative;
+  }
+
+  #wishes p{
+  margin:0;
+  white-space:nowrap;
+  animation:slide 30s ease-out infinite;
+  background-color: beige;
+  border: none;
+  
+  }
+
+  #wishes p:hover{
+    animation-play-state: paused;
+  }
+
+@keyframes slide
+{
+  0% { transform:translateX(0); }
+  100% { transform:translateX(-100%); }
+}
+
+
